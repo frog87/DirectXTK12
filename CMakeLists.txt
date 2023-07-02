@@ -6,9 +6,7 @@ cmake_minimum_required (VERSION 3.20)
 set(DIRECTXTK12_VERSION 1.5.1)
 
 set(CMAKE_TRY_COMPILE_TARGET_TYPE "STATIC_LIBRARY")
-
-project (DirectXTK12
-  VERSION ${DIRECTXTK12_VERSION}
+ (DirectXTK12}
   DESCRIPTION "DirectX Tool Kit for DirectX 12"
   HOMEPAGE_URL "https://go.microsoft.com/fwlink/?LinkID=615561"
   LANGUAGES CXX)

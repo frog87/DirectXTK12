@@ -1,9 +1,8 @@
 @PACKAGE_INIT@
 
 include(${CMAKE_CURRENT_LIST_DIR}/@PROJECT_NAME@-targets.cmake)
-include(CMakeFindDependencyMacro)
 
-if(MINGW)
+if(MINGW
     find_dependency(directx-headers)
     find_dependency(directxmath)
 else()
